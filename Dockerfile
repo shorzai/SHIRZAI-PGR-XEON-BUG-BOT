@@ -18,3 +18,4 @@ COPY . .
 EXPOSE 3000
 
 CMD ["node", "index.js", "--server"]
+# rebuild fix Thu Jun 11 01:52:53 +0430 2026
