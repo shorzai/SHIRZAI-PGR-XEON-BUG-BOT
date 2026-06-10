@@ -7,7 +7,6 @@ RUN apt-get update --allow-releaseinfo-change && \
   rm -rf /var/lib/apt/lists/*
 
 COPY package.json ./
-COPY package-lock.json ./
 
 RUN npm install --legacy-peer-deps
 
